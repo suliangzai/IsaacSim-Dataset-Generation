@@ -1,0 +1,206 @@
+name,path,scale,description
+MagazineStack01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Magazines/MagazineStack01.usd,0.005724085555584184,magazine stack
+OpenMagazine,/home/ja/Projects/Simulation/data/mesh/usd/object2/Magazines/OpenMagazine.usd,0.0048385423684390244,open magazine
+Magazine01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Magazines/Magazine01.usd,0.007223366824547389,magazine
+Pagota,/home/ja/Projects/Simulation/data/mesh/usd/object2/Decor/Pagota.usd,0.0074755129641023155,pagota
+GardenMoai,/home/ja/Projects/Simulation/data/mesh/usd/object2/Decor/GardenMoai.usd,0.004918655970651379,garden moai
+TikiGods,/home/ja/Projects/Simulation/data/mesh/usd/object2/Decor/TikiGods.usd,0.004912228101998291,tiki gods
+PinkFlamingos,/home/ja/Projects/Simulation/data/mesh/usd/object2/Decor/PinkFlamingos.usd,0.0021383360094074256,pink flamingos
+Prime_Large,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/Prime_Large.usd,0.004792496513637218, prime
+Earthenware01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/Earthenware01.usd,0.005684955807483885,earthenware
+Vase_Cylinder,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/Vase_Cylinder.usd,0.011870506854848204,vase cylinder
+AntiquelVaseSmall,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/AntiquelVaseSmall.usd,0.002316946231210453, antiquel vase
+pitcher,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/pitcher.usd,0.0033437432017874354,pitcher
+Prime_DoubleGourd,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/Prime_DoubleGourd.usd,0.01051126769331136,prime double gourd
+AbstractFace_Small,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/AbstractFace_Small.usd,0.005882352281194318, abstract face
+RecycledGlassVase_Small,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/RecycledGlassVase_Small.usd,0.004604528437368373, recycled glass vase
+AntiquelVase,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/AntiquelVase.usd,0.0017958708206683807,antiquel vase
+japan_vase,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/japan_vase.usd,0.004151990565904005,japan vase
+Vase_Torus,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/Vase_Torus.usd,0.0024196501317200365,vase torus
+BrassVase,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/BrassVase.usd,0.00994456673378091,brass vase
+Abstract_Face,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/Abstract_Face.usd,0.004705881508164079,abstract face
+RecycledGlassVase_Large,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/RecycledGlassVase_Large.usd,0.00457367497132337, recycled glass vase
+Knit,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/Knit.usd,0.005625734887157601,knit
+Seahorn,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/Seahorn.usd,0.005434799059176707,seahorn
+CellVase01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/CellVase01.usd,0.004938269744394657,cell vase
+Bowl_Footed,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/Bowl_Footed.usd,0.006191624475934838,bowl footed
+RecycledGlassVase_Medium,/home/ja/Projects/Simulation/data/mesh/usd/object2/Vases/RecycledGlassVase_Medium.usd,0.00460644968676216, recycled glass vase
+Ball_Walnut,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/Ball_Walnut.usd,0.015490571601288439,ball walnut
+RubixCube,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/RubixCube.usd,0.034333109674056374,rubix cube
+BubbleMarble_01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/BubbleMarble_01.usd,0.11887541072140793,bubble marble
+Solid_Marble,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/Solid_Marble.usd,0.11468344850063764,solid marble
+Thing_FlipFlop,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/Thing_FlipFlop.usd,0.009432506514344602,thing flip flop
+TwistMarble,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/TwistMarble.usd,0.12057304554091015,twist marble
+SwirlMarble,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/SwirlMarble.usd,0.12057304554091015,swirl marble
+Chess_Bishop,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/ChessSet/Chess_Bishop.usd,0.008487209686227492,chess bishop
+Chess_Board,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/ChessSet/Chess_Board.usd,0.0037507590399439585,chess board
+Chess_King,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/ChessSet/Chess_King.usd,0.00825614963767303,chess king
+Chess_Queen,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/ChessSet/Chess_Queen.usd,0.008551690795883285,chess queen
+Chess_Knight,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/ChessSet/Chess_Knight.usd,0.026285596180103572,chess knight
+Chess_Pawn,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/ChessSet/Chess_Pawn.usd,0.008803154902636692,chess pawn
+Chess_Rook,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/ChessSet/Chess_Rook.usd,0.008514121130314018,chess rook
+Percentage,/home/ja/Projects/Simulation/data/mesh/usd/object2/Games/DiceSet/Percentage.usd,0.12822384781537716,percentage
+Spoon_Small,/home/ja/Projects/Simulation/data/mesh/usd/object2/Flatware/Spoon_Small.usd,0.013528904405897064, spoon
+Spoon_Big,/home/ja/Projects/Simulation/data/mesh/usd/object2/Flatware/Spoon_Big.usd,0.011801028263805724,spoon
+Fork_Small,/home/ja/Projects/Simulation/data/mesh/usd/object2/Flatware/Fork_Small.usd,0.012300767812590475, fork
+Fork_Big,/home/ja/Projects/Simulation/data/mesh/usd/object2/Flatware/Fork_Big.usd,0.010865308026512952,fork
+Coaster_Hexagon,/home/ja/Projects/Simulation/data/mesh/usd/object2/Coasters/Coaster_Hexagon.usd,0.017145198596828115,coaster hexagon
+ChippedPlanter_Medium,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/ChippedPlanter_Medium.usd,0.0037957134026717857, chipped planter
+GardenPlanter_Large,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/GardenPlanter_Large.usd,0.0040846901949064315, garden planter
+ChippedPlanter_Large,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/ChippedPlanter_Large.usd,0.003313851762323064, chipped planter
+GardenPlanter_Medium,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/GardenPlanter_Medium.usd,0.005158818598581691, garden planter
+Plant_01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Plants/Plant_01.usd,0.0023818783023592718,plant
+PlantPot,/home/ja/Projects/Simulation/data/mesh/usd/object2/Plants/PlantPot.usd,0.003046263712422405,plant pot
+Plant_Succulent_01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Plants/Plant_Succulent_01.usd,0.0014589398242976614,plant succulent
+red_grinder,/home/ja/Projects/Simulation/data/mesh/usd/object2/GadgetsAndTools/red_grinder.usd,0.0068510158728852,red grinder
+brass_grinder,/home/ja/Projects/Simulation/data/mesh/usd/object2/GadgetsAndTools/brass_grinder.usd,0.009830889086732065,brass grinder
+coffee_grinder,/home/ja/Projects/Simulation/data/mesh/usd/object2/GadgetsAndTools/coffee_grinder.usd,0.014914654815839765,coffee grinder
+Wood_Wall_Art,/home/ja/Projects/Simulation/data/mesh/usd/object2/WallSculptures/Wood_Wall_Art.usd,0.001999988098215358,wood wall art
+Bull_Sculpture,/home/ja/Projects/Simulation/data/mesh/usd/object2/WallSculptures/Bull_Sculpture.usd,0.004253680272183352,bull sculpture
+Beach,/home/ja/Projects/Simulation/data/mesh/usd/object2/WallSculptures/Beach.usd,0.0009658721536977078,beach
+DecorativeBowlLarge,/home/ja/Projects/Simulation/data/mesh/usd/object2/Kitchenware/DecorativeBowlLarge.usd,0.004949479787666894, decorative bowl
+BrassBowl_Large,/home/ja/Projects/Simulation/data/mesh/usd/object2/Kitchenware/BrassBowl_Large.usd,0.0026620311838983185, brass bowl
+square_plate,/home/ja/Projects/Simulation/data/mesh/usd/object2/Kitchenware/square_plate.usd,0.005477636720209014,square plate
+BrassBowl_Medium,/home/ja/Projects/Simulation/data/mesh/usd/object2/Kitchenware/BrassBowl_Medium.usd,0.0031438406895572452, brass bowl
+BlackandBrassBowl_Large,/home/ja/Projects/Simulation/data/mesh/usd/object2/Kitchenware/BlackandBrassBowl_Large.usd,0.006629968116495872, blackand brass bowl
+Brass_Bowl_Small,/home/ja/Projects/Simulation/data/mesh/usd/object2/Kitchenware/Brass_Bowl_Small.usd,0.004434467674079888, brass bowl
+BlackandBrassBowl_Small,/home/ja/Projects/Simulation/data/mesh/usd/object2/Kitchenware/BlackandBrassBowl_Small.usd,0.011090766878611708, blackand brass bowl
+DecorativeBowl,/home/ja/Projects/Simulation/data/mesh/usd/object2/Kitchenware/DecorativeBowl.usd,0.007511781215474997,decorative bowl
+BronzeLantern,/home/ja/Projects/Simulation/data/mesh/usd/object2/CandleHolders/BronzeLantern.usd,0.005356411279636405,bronze lantern
+WallCandleLarge,/home/ja/Projects/Simulation/data/mesh/usd/object2/CandleHolders/WallCandleLarge.usd,0.002886289694548361, wall candle
+WallCandleSmall,/home/ja/Projects/Simulation/data/mesh/usd/object2/CandleHolders/WallCandleSmall.usd,0.0030283335593709053, wall candle
+Camera01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Cameras/Camera01.usd,0.00760966006262329,camera
+CrabbyPenHolder,/home/ja/Projects/Simulation/data/mesh/usd/object2/DeskDecor/CrabbyPenHolder.usd,0.039576492399297676,crabby pen holder
+HippoOrganizer,/home/ja/Projects/Simulation/data/mesh/usd/object2/DeskDecor/HippoOrganizer.usd,0.012024146083760885,hippo organizer
+RedOnion,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Vegetables/RedOnion.usd,0.022152276195307016,red onion
+salt_box,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Boxed/salt_box.usd,0.013310108443817104,salt box
+mustard_jar,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Boxed/mustard_jar.usd,0.02192862556276256,mustard jar
+oil_tin,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Boxed/oil_tin.usd,0.01092308879853586,oil tin
+blue_tin,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Boxed/blue_tin.usd,0.006258286331448961,blue tin
+GummyBear,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Candy/GummyBear.usd,0.07378079650043326,gummy bear
+GummyWorm01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Candy/GummyWorm01.usd,0.034227162777124856,gummy worm
+Lime01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Fruit/Lime01.usd,0.026487611434569003,lime
+Avocado01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Fruit/Avocado01.usd,0.02170031869321605,avocado
+Kiwi01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Fruit/Kiwi01.usd,0.03711523498284761,kiwi
+Lychee01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Fruit/Lychee01.usd,0.03982399714700826,lychee
+Pomegranate01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Fruit/Pomegranate01.usd,0.017337895809857496,pomegranate
+Apple,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Fruit/Apple.usd,0.019102895750838324,apple
+stawberry,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Berries/stawberry.usd,0.010551196409894886,stawberry
+TinCan,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Containers/TinCan.usd,0.016712298746748133,tin can
+AntiqueMirror,/home/ja/Projects/Simulation/data/mesh/usd/object2/Mirrors/AntiqueMirror.usd,0.00130889004083391,antique mirror
+CornerShelf_Vera,/home/ja/Projects/Simulation/data/mesh/usd/object2/Shelves/CornerShelf_Vera.usd,0.002329687627195946,corner shelf vera
+DoorHandle_Left,/home/ja/Projects/Simulation/data/mesh/usd/object2/Fixtures/DoorHandle_Left.usd,0.007105330705624412,door handle left
+DoorHandle_Right,/home/ja/Projects/Simulation/data/mesh/usd/object2/Fixtures/DoorHandle_Right.usd,0.00535979645597199,door handle right
+drawer_organizer_A,/home/ja/Projects/Simulation/data/mesh/usd/object2/StorageAndOrganization/drawer_organizer_A.usd,0.004000695616555033,drawer organizer
+spatula_bowl,/home/ja/Projects/Simulation/data/mesh/usd/object2/StorageAndOrganization/spatula_bowl.usd,0.00898592315977176,spatula bowl
+paper_towel,/home/ja/Projects/Simulation/data/mesh/usd/object2/StorageAndOrganization/paper_towel.usd,0.0052935370319812484,paper towel
+fruit_bowl,/home/ja/Projects/Simulation/data/mesh/usd/object2/StorageAndOrganization/fruit_bowl.usd,0.0030074960241403687,fruit bowl
+WaterGun,/home/ja/Projects/Simulation/data/mesh/usd/object2/Toys/WaterGun.usd,0.00401025081201215,water gun
+SpeakNoEvil_Skull,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/SpeakNoEvil_Skull.usd,0.009777456600237308,speak no evil skull
+CopperScales,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/CopperScales.usd,0.003500275996035912,copper scales
+Kiwi,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/Kiwi.usd,0.014244061261460985,kiwi
+AbstractBird,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/AbstractBird.usd,0.005321366969987128,abstract bird
+WoodenBird_Medium,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/WoodenBird_Medium.usd,0.008331886516250133, wooden bird
+MetalLinks,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/MetalLinks.usd,0.007414924067770817,metal links
+ObeliskSmall,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/ObeliskSmall.usd,0.006701491873408311, obelisk
+AbstractElephant,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/AbstractElephant.usd,0.006511297726495391,abstract elephant
+WoodenTray_Medium,/home/ja/Projects/Simulation/data/mesh/usd/object2/Tchotchkes/WoodenTray_Medium.usd,0.006190616308083668, wooden tray
+PumpkinLarge,/home/ja/Projects/Simulation/data/mesh/usd/object2/Tchotchkes/PumpkinLarge.usd,0.022190720337723152, pumpkin
+PumpkinSmall,/home/ja/Projects/Simulation/data/mesh/usd/object2/Tchotchkes/PumpkinSmall.usd,0.026313093836708035, pumpkin
+ServingTray,/home/ja/Projects/Simulation/data/mesh/usd/object2/Tchotchkes/ServingTray.usd,0.004010711284524137,serving tray
+white_tray,/home/ja/Projects/Simulation/data/mesh/usd/object2/Serving/white_tray.usd,0.006205884302529285,white tray
+grey_bowl,/home/ja/Projects/Simulation/data/mesh/usd/object2/Serving/grey_bowl.usd,0.02191065676116263,grey bowl
+salt_bowl,/home/ja/Projects/Simulation/data/mesh/usd/object2/Serving/salt_bowl.usd,0.012501117687018545,salt bowl
+plate_large,/home/ja/Projects/Simulation/data/mesh/usd/object2/Dinnerware/plate_large.usd,0.006045515250429353, plate
+bowl_plate,/home/ja/Projects/Simulation/data/mesh/usd/object2/Dinnerware/bowl_plate.usd,0.008731623907710135,bowl plate
+plate_small,/home/ja/Projects/Simulation/data/mesh/usd/object2/Dinnerware/plate_small.usd,0.006719765952487745, plate
+Book_Colors,/home/ja/Projects/Simulation/data/mesh/usd/object2/Books/Book_Colors.usd,0.004977222727793132,book colors
+PhotoAlbum_Closed,/home/ja/Projects/Simulation/data/mesh/usd/object2/Books/PhotoAlbum_Closed.usd,0.008168066289511375,closed photo album
+Book_IntroOmni,/home/ja/Projects/Simulation/data/mesh/usd/object2/Books/Book_IntroOmni.usd,0.006517986131153511,book intro omni
+Encyclopedia01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Books/Encyclopedia01.usd,0.0036278058620678438,encyclopedia
+Book_Spelling,/home/ja/Projects/Simulation/data/mesh/usd/object2/Books/Book_Spelling.usd,0.004977222727793132,book spelling
+Book_Marbles,/home/ja/Projects/Simulation/data/mesh/usd/object2/Books/Book_Marbles.usd,0.004977222727793132,book marbles
+BookStack_01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Books/BookStack_01.usd,0.0046621296932260895,book stack
+Book_Holodeck,/home/ja/Projects/Simulation/data/mesh/usd/object2/Books/Book_Holodeck.usd,0.004977222727793132,book holodeck
+Book_Greener,/home/ja/Projects/Simulation/data/mesh/usd/object2/Books/Book_Greener.usd,0.004977222727793132,book greener
+pan_A,/home/ja/Projects/Simulation/data/mesh/usd/object2/Cookware/pan_A.usd,0.005104208853858375,pan
+Dancers,/home/ja/Projects/Simulation/data/mesh/usd/object2/Statues/Dancers.usd,0.002876932933827601,dancers
+GoldenBowlSmall,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/GoldenBowlSmall.usd,0.006079750338377218, golden bowl
+ObeliskMedium,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/ObeliskMedium.usd,0.005, obelisk
+ChamferBox,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/ChamferBox.usd,0.02857142857142857,chamfer box
+GoldenBowlLarge,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/GoldenBowlLarge.usd,0.0045507145037012395, golden bowl
+GeoSphere_Small,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/GeoSphere_Small.usd,0.013493875434240304, geo sphere
+ObeliskLarge,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/ObeliskLarge.usd,0.003986445925698946, obelisk
+Lemon_01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Tchotchkes/Lemon_01.usd,0.009191044250465283,lemon
+WoodenTray_Large,/home/ja/Projects/Simulation/data/mesh/usd/object2/Tchotchkes/WoodenTray_Large.usd,0.004645620452185255, wooden tray
+Orange_01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Tchotchkes/Orange_01.usd,0.008729592154875801,orange
+DecorativeWoodenBowl,/home/ja/Projects/Simulation/data/mesh/usd/object2/Tchotchkes/DecorativeWoodenBowl.usd,0.005229019438175228,decorative wooden bowl
+MechanicalPencil,/home/ja/Projects/Simulation/data/mesh/usd/object2/Supplies/MechanicalPencil.usd,0.014330171790385213,mechanical pencil
+Eraser,/home/ja/Projects/Simulation/data/mesh/usd/object2/Supplies/Eraser.usd,0.033654458435182714,eraser
+glass_plate,/home/ja/Projects/Simulation/data/mesh/usd/object2/Serving/glass_plate.usd,0.005933999243717519,glass plate
+serving_bowl,/home/ja/Projects/Simulation/data/mesh/usd/object2/Serving/serving_bowl.usd,0.012524784973927401,serving bowl
+OmniverseLogoLarge,/home/ja/Projects/Simulation/data/mesh/usd/object2/Statues/OmniverseLogoLarge.usd,0.0013400155540440667, omniverse logo
+BuddhaStatue,/home/ja/Projects/Simulation/data/mesh/usd/object2/Statues/BuddhaStatue.usd,0.0048216154574799745,buddha statue
+OmniverseLogo,/home/ja/Projects/Simulation/data/mesh/usd/object2/Statues/OmniverseLogo.usd,0.004497509542521696,omniverse logo
+MarbleBust01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Statues/MarbleBust01.usd,0.003883099944525874,marble bust
+SolFigurine,/home/ja/Projects/Simulation/data/mesh/usd/object2/Statues/SolFigurine.usd,0.0033390335330579207,sol figurine
+ArmentoRider,/home/ja/Projects/Simulation/data/mesh/usd/object2/Statues/ArmentoRider.usd,0.008224351256701165,armento rider
+CurtainRod_OrbEnds,/home/ja/Projects/Simulation/data/mesh/usd/object2/WindowDressing/CurtainRod_OrbEnds.usd,0.0008431597003216721,curtain rod orb ends
+Grandfather_Clock,/home/ja/Projects/Simulation/data/mesh/usd/object2/Clocks/Grandfather_Clock.usd,0.0009131727849540515,grandfather clock
+AlarmClock_Retro,/home/ja/Projects/Simulation/data/mesh/usd/object2/Clocks/AlarmClock_Retro.usd,0.011502195185948002,alarm clock
+MantelClock,/home/ja/Projects/Simulation/data/mesh/usd/object2/Clocks/MantelClock.usd,0.005844297354578393,mantel clock
+MetalClock,/home/ja/Projects/Simulation/data/mesh/usd/object2/Clocks/MetalClock.usd,0.002138482537542383,metal clock
+FancyFrame01,/home/ja/Projects/Simulation/data/mesh/usd/object2/Pictures/FancyFrame01.usd,0.003316583035368565,fancy frame
+MirrorRound,/home/ja/Projects/Simulation/data/mesh/usd/object2/Mirrors/MirrorRound.usd,0.002777782192943668,mirror round
+Poster_Holodeck,/home/ja/Projects/Simulation/data/mesh/usd/object2/Pictures/Poster_Holodeck.usd,0.0021859286844769245,poster holodeck
+CornerShelf_Square,/home/ja/Projects/Simulation/data/mesh/usd/object2/Shelves/CornerShelf_Square.usd,0.002707184100580878,corner shelf square
+OldBike,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/OldBike.usd,0.0052504196025492614,old bike
+OvalMask,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/OvalMask.usd,0.0063004805563296636,oval mask
+GeoSphere_Large,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/GeoSphere_Large.usd,0.002739010090842344, geo sphere
+GeoSphere_Medium,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/GeoSphere_Medium.usd,0.007059760089238056, geo sphere
+BridgeBookend,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/BridgeBookend.usd,0.01259540765202342,bridge bookend
+AbstractBike,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/AbstractBike.usd,0.009439579009986414,abstract bike
+WoodenBird_Small,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/WoodenBird_Small.usd,0.016581065969042064, wooden bird
+HearNoEvil_Skull,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/HearNoEvil_Skull.usd,0.009826956879983176,hear no evil skull
+DiscSculpture,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/DiscSculpture.usd,0.0017178002715123614,disc sculpture
+SquareMask,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/SquareMask.usd,0.002937645849078086,square mask
+WoodenBird_Tall,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/WoodenBird_Tall.usd,0.008913174714973337, wooden bird
+SeeNoEvil_Skull,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/SeeNoEvil_Skull.usd,0.009826980824859251,see no evil skull
+WoodenRing,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/WoodenRing.usd,0.004441908412241919,wooden ring
+AbstractBull,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/AbstractBull.usd,0.006030173410271658,abstract bull
+DoorHandle,/fake,0.00,door handle
+P_Strawberry_GRP,/fake,0.00,stawberry
+Table,/fake,0.00,table
+Book,/fake,0.00,book
+Bowl01,/fake,0.00,bowl
+p_greybowl_grp,/fake,0.00,bowl
+Dimmer_1Gang,/home/ja/Projects/Simulation/data/mesh/usd/object2/PowerOutlets/Dimmer_1Gang.usd,0.016177702693581267,dimmer
+Outlet_1gang,/home/ja/Projects/Simulation/data/mesh/usd/object2/PowerOutlets/Outlet_1gang.usd,0.016177702693581267,outlet
+Red_Grinder,/home/ja/Projects/Simulation/data/mesh/usd/object2/GadgetsAndTools/red_grinder.usd,0.0068510158728852,red grinder
+ChippedPlanterSmall,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/ChippedPlanterSmall.usd,0.004920385625162769,chipped planter
+TallThin,/home/ja/Projects/Simulation/data/mesh/usd/object2/Candles/TallThin.usd,0.01095702836415952,tall thin
+Anza_Medium,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/Anza_Medium.usd,0.003154583926548679,medium anza
+Fluted_Large,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/Fluted_Large.usd,0.0039058847228807094,large fluted
+Oil_Tin,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Boxed/oil_tin.usd,0.01092308879853586,oil tin
+Drawer_organizer,/home/ja/Projects/Simulation/data/mesh/usd/object2/StorageAndOrganization/drawer_organizer_A.usd,0.004000695616555033,drawer organizer
+spoons_big,/fake,0.00,spoon
+brass_grinder_top,/home/ja/Projects/Simulation/data/mesh/usd/object2/GadgetsAndTools/brass_grinder.usd,0.009830889086732065,brass grinder
+OpenMagazinePages01,/fake,0.00,open magazine pages
+P_SpatulaBowl_GRP,/home/ja/Projects/Simulation/data/mesh/usd/object2/StorageAndOrganization/spatula_bowl.usd,0.00898592315977176,spatula bowl
+fork_big,/fake,0.00,fork
+SquareGardenPlanter_Large,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/SquareGardenPlanter_Large.usd,0.003749720624042746,garden planter
+Anza_Small,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/Anza_Small.usd,0.00474129121617491,small anza
+FlutedSquare_LongBox,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/FlutedSquare_LongBox.usd,0.0030326612891563827,fluted square long box
+p_saltbowl_grp,/home/ja/Projects/Simulation/data/mesh/usd/object2/Serving/salt_bowl.usd,0.012501117687018545,salt bowl
+Coffee_Grinder,/home/ja/Projects/Simulation/data/mesh/usd/object2/GadgetsAndTools/coffee_grinder.usd,0.014914654815839765,coffee grinder
+brass_grinder_base,/fake,0.00,
+p_mustard_jar_grp,/home/ja/Projects/Simulation/data/mesh/usd/object2/Food/Boxed/mustard_jar.usd,0.02192862556276256,mustard jar
+MarkII_Geo,/home/ja/Projects/Simulation/data/mesh/usd/object2/Sculptures/GeoSphere_Small.usd,0.013493875434240304, geo sphere
+SquareGardenPlanter_Tall,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/SquareGardenPlanter_Tall.usd,0.00246002358448514,tall square garden planter
+forks_small,/fake,0.00,fork
+Flutted_Low,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/Flutted_Low.usd,0.003128242874149514,flutted low
+Fluted_Tall,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/Fluted_Tall.usd,0.0013536559357996616,tall fluted
+Fluted_Medium,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/Fluted_Medium.usd,0.0018527825770134495,medium fluted
+Anza_Large,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/Anza_Large.usd,0.002180567789094882,large anza
+SquareGardenPlanterMedium,/home/ja/Projects/Simulation/data/mesh/usd/object2/Planters/SquareGardenPlanterMedium.usd,0.005,medium square garden planter
+

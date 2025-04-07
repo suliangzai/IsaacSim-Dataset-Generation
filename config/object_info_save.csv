@@ -1,0 +1,19 @@
+name,path,description
+master_chef_can,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_002_master_chef_can/002_master_chef_can.usd,blue cylindrical can
+cracker_box,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_003_cracker_box/003_cracker_box.usd,red glossy rectangular box
+sugar_box,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_004_sugar_box/004_sugar_box.usd,yellow box
+tomato_soup_can,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_005_tomato_soup_can/005_tomato_soup_can.usd,red can
+mustard_bottle,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_006_mustard_bottle/006_mustard_bottle.usd,yellow bottle
+tuna_fish_can,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_007_tuna_fish_can/007_tuna_fish_can.usd,small blue tuna fish can
+pudding_box,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_008_pudding_box/008_pudding_box.usd,brown box
+gelatin_box,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_009_gelatin_box/009_gelatin_box.usd,red box
+potted_meat_can,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_010_potted_meat_can/010_potted_meat_can.usd,yellow and blue potted meat can
+banana,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_011_banana/011_banana.usd,banana
+pitcher_base,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_019_pitcher_base/019_pitcher_base.usd,blue pitcher
+bleach_cleanser,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_021_bleach_cleanser/021_bleach_cleanser.usd,white bottle
+bowl,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_024_bowl/024_bowl.usd,red bowl
+mug,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_025_mug/025_mug.usd,red mug
+power_drill,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_035_power_drill/035_power_drill.usd,red power drill
+wood_block,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_036_wood_block/036_wood_block.usd,wood block
+scissors,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_037_scissors/037_scissors.usd,scissors
+large_marker,/home/ja/Projects/Simulation/data/mesh/usd/object/Collected_040_large_marker/040_large_marker.usd,marker
