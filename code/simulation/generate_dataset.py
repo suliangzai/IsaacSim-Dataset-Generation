@@ -608,6 +608,10 @@ def visualize_reli_bboxes(annotation_file_path):
     
     # Load the image corresponding to the annotation
     image_path = annotation_data['imagePath']
+<<<<<<< HEAD
+=======
+    original_image = cv2.imread(image_path)
+>>>>>>> 1d7eaa7 (update)
     image = cv2.imread(image_path)
     
     if image is None:
@@ -633,7 +637,11 @@ def visualize_reli_bboxes(annotation_file_path):
 
         # Draw parent-child relationships
         parent_ids = shape['parents']
+<<<<<<< HEAD
         child_ids = shape['children']
+=======
+        # child_ids = shape['children']
+>>>>>>> 1d7eaa7 (update)
         
         # Draw relationships (arrows between parent and child)
         for parent_id in parent_ids:
@@ -641,6 +649,7 @@ def visualize_reli_bboxes(annotation_file_path):
             if parent_shape:
                 parent_bndbox = parent_shape['bndbox']
                 cv2.arrowedLine(image, 
+<<<<<<< HEAD
                                  (parent_bndbox['x_max'], parent_bndbox['y_max']),
                                  (x_min, y_min), 
                                  (255, 0, 0), 2)  # Blue arrow from parent to child
@@ -658,6 +667,44 @@ def visualize_reli_bboxes(annotation_file_path):
     output_image_path = os.path.join(os.path.dirname(annotation_file_path), 'output', os.path.basename(annotation_file_path).replace('.json', '.jpg'))
     os.makedirs(os.path.dirname(output_image_path), exist_ok=True)
     cv2.imwrite(output_image_path, image)
+=======
+                                 (int((parent_bndbox['x_max']+parent_bndbox['x_min'])/2), int((parent_bndbox['y_max']+parent_bndbox['y_min'])/2)),
+                                 (int((x_min+x_max)/2), int((y_min+y_max)/2)), 
+                                 (255, 0, 0), 2)  # Blue arrow from parent to child
+
+        # for child_id in child_ids:
+        #     child_shape = next((item for item in annotation_data['shapes'] if item['id'] == child_id), None)
+        #     if child_shape:
+        #         child_bndbox = child_shape['bndbox']
+        #         cv2.arrowedLine(image, 
+        #                          (x_max, y_max),
+        #                          (child_bndbox['x_min'], child_bndbox['y_min']), 
+        #                          (255, 0, 0), 2)  # Blue arrow from child to parent
+
+    # Save the image with the drawn annotations (bbox, polygon, relationships)
+    # Add labels to the images
+    font = cv2.FONT_HERSHEY_SIMPLEX
+    font_scale = 1
+    thickness = 2
+    
+    # Label the original image
+    cv2.putText(original_image, 'Original Image', (10, 30), font, font_scale, (0, 0, 255), thickness)
+    
+    # Label the annotated image
+    cv2.putText(image, 'Annotated Image', (10, 30), font, font_scale, (0, 0, 255), thickness)
+
+    # Combine the images vertically
+    if original_image.shape[1] != image.shape[1]:
+        # Resize the wider image to match the narrower one
+        width = min(original_image.shape[1], image.shape[1])
+        original_image = cv2.resize(original_image, (width, int(original_image.shape[0] * width / original_image.shape[1])))
+        image = cv2.resize(image, (width, int(image.shape[0] * width / image.shape[1])))
+    
+    combined_image = np.vstack((original_image, image))
+    output_image_path = os.path.join(os.path.dirname(annotation_file_path), 'output', os.path.basename(annotation_file_path).replace('.json', '.jpg'))
+    os.makedirs(os.path.dirname(output_image_path), exist_ok=True)
+    cv2.imwrite(output_image_path, combined_image)
+>>>>>>> 1d7eaa7 (update)
 
     print(f"Visualization complete. Image saved at: {output_image_path}")
 
@@ -681,6 +728,11 @@ def generate_dataset(config):
 
     generate_reli(config)
 
+<<<<<<< HEAD
     for i in range(100):
         reli_path = str(OUTPUT_FOLDER / f'Annotations/{(3*i+1):04d}.json')
+=======
+    for i in range(config['start_from'], config['end_with']):
+        reli_path = str(OUTPUT_FOLDER / f'Annotations/{(config["num_frames"]*i):04d}.json')
+>>>>>>> 1d7eaa7 (update)
         visualize_reli_bboxes(reli_path)

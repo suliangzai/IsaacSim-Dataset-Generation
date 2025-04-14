@@ -6,6 +6,11 @@ import sys
 from tqdm import tqdm
 import cv2  # Add OpenCV import
 from scipy.spatial import ConvexHull
+<<<<<<< HEAD
+=======
+from sklearn.neighbors import KDTree
+from sklearn.decomposition import PCA
+>>>>>>> 1d7eaa7 (update)
 from path_config import DATA_FOLDER, CONFIG_FOLDER, CODE_FOLDER
 
 sys.path.append(str(CODE_FOLDER))
@@ -76,8 +81,14 @@ def save_depth_image(depths, image_coords, image_size, file_path):
 
 
 
+<<<<<<< HEAD
 def compute_occlusion_with_camera_params(points, labels, intrinsic_matrix, extrinsic_matrix, image_size=(640, 480)):
     """基于相机内参和外参计算物体之间的遮挡关系，忽略中心超出图像边界的物体"""
+=======
+def compute_occlusion_with_camera_params(points, labels, intrinsic_matrix, extrinsic_matrix, image_size=(640, 480), min_visible_ratio=0.1, min_occlusion_ratio=0.05):
+    """基于相机内参和外参计算物体之间的遮挡关系，忽略中心超出图像边界的物体"""
+
+>>>>>>> 1d7eaa7 (update)
     unique_labels = np.unique(labels)
     num_objects = len(unique_labels)
     occlusion_matrix = np.zeros((num_objects, num_objects), dtype=int)
@@ -164,7 +175,92 @@ def compute_occlusion_with_camera_params(points, labels, intrinsic_matrix, extri
     # 返回更新后的遮挡矩阵
     return occlusion_matrix, unique_labels, occlusion_areas
 
+<<<<<<< HEAD
 
+=======
+def compute_support_matrix(points, labels, unique_labels, 
+                          eps_scale=0.2, min_contact_ratio=0.008):
+
+    num_objects = len(unique_labels)
+    support_matrix = np.zeros((num_objects, num_objects), dtype=int)
+    obj_properties = compute_z_properties(points, labels, unique_labels)
+
+    obj_top_points = {}
+    obj_bottom_points = {}
+    for label in unique_labels:
+        points_l = points[labels == label]
+        props = obj_properties[label]
+        
+        top_threshold = props['top'] - eps_scale * props['height']
+        obj_top_points[label] = points_l[points_l[:, 2] >= top_threshold]
+        
+        bottom_threshold = props['bottom'] + eps_scale * props['height']
+        obj_bottom_points[label] = points_l[points_l[:, 2] <= bottom_threshold]
+
+    for i, label_a in enumerate(unique_labels):
+        a_props = obj_properties[label_a]
+        a_top = a_props['top']
+        a_height = a_props['height']
+        eps_a = eps_scale * a_height
+
+        a_top_pts = obj_top_points[label_a]
+        if len(a_top_pts) == 0:
+            continue
+
+        for j, label_b in enumerate(unique_labels):
+            if i == j:
+                continue
+
+            b_props = obj_properties[label_b]
+            b_bottom = b_props['bottom']
+            b_height = b_props['height']
+
+            eps_height = (a_height + b_height) * 0.5 * eps_scale
+            if abs(a_top - b_bottom) > eps_height:
+                continue
+
+            b_bottom_pts = obj_bottom_points[label_b]
+            if len(b_bottom_pts) == 0:
+                continue
+
+            min_samples = max(3, int(min_contact_ratio * min(
+                len(a_top_pts), len(b_bottom_pts)
+            )))
+
+            tree = KDTree(b_bottom_pts[:, :2])
+            distances, _ = tree.query(a_top_pts[:, :2], k=1)
+            contact_count = np.sum(distances <= eps_height)
+
+            if contact_count >= min_samples:
+                support_matrix[j][i] = 1
+
+    # 消除双向支撑冲突
+    for i in range(num_objects):
+        for j in range(num_objects):
+            if i != j and support_matrix[i][j] and support_matrix[j][i]:
+                a_avg_z = obj_properties[unique_labels[i]]['avg_z']
+                b_avg_z = obj_properties[unique_labels[j]]['avg_z']
+                if a_avg_z > b_avg_z:
+                    support_matrix[j][i] = 0  # 保留i支撑j
+                else:
+                    support_matrix[i][j] = 0  # 保留j支撑i
+
+    return support_matrix
+
+def compute_z_properties(points, labels, unique_labels):
+    """增强属性计算：增加平均高度"""
+    properties = {}
+    for label in unique_labels:
+        obj_points = points[labels == label]
+        z_values = obj_points[:, 2]
+        properties[label] = {
+            'top': np.max(z_values),
+            'bottom': np.min(z_values),
+            'height': np.max(z_values) - np.min(z_values),
+            'avg_z': np.mean(z_values)  # 用于冲突解决
+        }
+    return properties
+>>>>>>> 1d7eaa7 (update)
 
 def build_occlusion_tree(occlusion_matrix, unique_labels):
     """构建遮挡树形结构"""
@@ -314,7 +410,29 @@ def save_object_segmentation(image_coords, labels, file_path, image_shape):
     with open(file_path, 'w') as f:
         json.dump(segmentation_data, f, indent=4)
 
+<<<<<<< HEAD
 
+=======
+def combine_relations(support_matrix, occlusion_matrix):
+    """
+    结合支撑矩阵和遮挡矩阵生成最终关系矩阵。
+    """
+    # 初始化关系矩阵为遮挡矩阵的副本
+    relation_matrix = np.copy(occlusion_matrix)
+    
+    # 遍历所有可能的物体对
+    n = support_matrix.shape[0]
+    for i in range(n):
+        for j in range(n):
+            # 处理支撑关系
+            if support_matrix[i, j] == 1:
+                # 强制设置i在j下方
+                relation_matrix[i, j] = 1
+                # 禁止反向关系（j不可能在i下方）
+                relation_matrix[j, i] = 0
+    
+    return relation_matrix.astype(int)
+>>>>>>> 1d7eaa7 (update)
 
 def generate_occlusion_cam(config):
     # 主循环
@@ -324,7 +442,10 @@ def generate_occlusion_cam(config):
             ROOT_FOLDER = DATA_FOLDER / 'test' # for test only
             ply_file = ROOT_FOLDER / f'camera/{i}/scene/scene.ply'
             points, labels = load_point_cloud_with_labels(ply_file)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1d7eaa7 (update)
             for j in tqdm(range(config['num_frames']), desc=f"Processing Scenes in Camera {i}", leave = False):
                 image_path = os.path.join(DATA_FOLDER, f'test/camera/{i}/rgb_{j:04d}.png')
             
@@ -340,8 +461,25 @@ def generate_occlusion_cam(config):
                 # 计算物体间的遮挡关系及遮挡面积
                 occlusion_matrix, unique_labels, occlusion_areas = compute_occlusion_with_camera_params(points, labels, matrices_dic["intrinsic"], matrices_dic["extrinsic"])
 
+<<<<<<< HEAD
                 # 构建遮挡树
                 occlusion_tree = build_occlusion_tree(occlusion_matrix, unique_labels)
+=======
+                # 支撑矩阵（接触面检测）
+                support_matrix = compute_support_matrix(points, labels, unique_labels)
+
+                relation_matrix = combine_relations(support_matrix, occlusion_matrix)
+                print("support_matrix:")
+                print(support_matrix)
+                print("occlusion_matrix:")
+                print(occlusion_matrix)
+                print("final_matrix:")
+                print(relation_matrix)
+                print("1")
+
+                # 构建遮挡树
+                occlusion_tree = build_occlusion_tree(relation_matrix, unique_labels)
+>>>>>>> 1d7eaa7 (update)
 
                 # 保存遮挡树和遮挡区域面积到文件
                 output_file = ROOT_FOLDER / f'camera/{i}/scene/occlusion/occlusion_tree_{j:04d}.json'
@@ -357,7 +495,11 @@ def generate_occlusion_cam(config):
 
                 # 保存深度图像并显示 (可选)
                 depth_file = ROOT_FOLDER / f'camera/{i}/scene/depth/depth_image_{j:04d}.png'
+<<<<<<< HEAD
                 save_depth_image(depths, image_coords, image.shape, depth_file)
+=======
+                #save_depth_image(depths, image_coords, image.shape, depth_file)
+>>>>>>> 1d7eaa7 (update)
         except:
             print(f"file {i} dose not exist.")
             continue

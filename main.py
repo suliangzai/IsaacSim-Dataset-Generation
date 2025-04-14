@@ -26,7 +26,11 @@ config = {
     "working_area_size": (0.7, 0.7, 1.5),               # Dimensions of the working area in meters (x, y, z)
     "generation_area_size": (0.3, 0.3, 0.5),            # Dimensions of the object generation area (x, y, z)
     "rt_subframes": 4,                                  # Number of subframes for Ray Tracing (affects motion blur quality)
+<<<<<<< HEAD
     "num_frames": 5,                                   # Total number of frames to capture
+=======
+    "num_frames": 3,                                   # Total number of frames to capture
+>>>>>>> 1d7eaa7 (update)
     "num_cameras": 1,                                   # Number of cameras to create
     "camera_collider_radius": 0.5,                      # Radius for collision spheres around cameras
     "disable_render_products_between_captures": False,  # Disable render products except during captures
@@ -50,6 +54,10 @@ config = {
     "save_path": DATA_FOLDER / "test/camera",                                   # Path to save captured data
     "table_url": "/Isaac/Props/Mounts/SeattleLabTable/table_instanceable.usd",  # USD file path for the table asset
     "table_pos": (0, 0, -0.4),                                                  # Position of the table in the simulation
+<<<<<<< HEAD
+=======
+    "box_pos": (0, 0, 1),
+>>>>>>> 1d7eaa7 (update)
     "random_object_info": CONFIG_FOLDER / "object_info.csv",                    # Path to CSV file containing random object info
     "min_obj_num": 2,                                                           # Minimum types of objects to generate
     "max_obj_num": 3,                                                           # Maximum types of objects to generate
@@ -57,11 +65,20 @@ config = {
     "max_count_each": 2,                                                        # Maximum count for each object type
     "random_table_info": CONFIG_FOLDER / "table_info.csv",                      # Path to CSV file containing random table info
     "start_from": 0,                                                            # Starting scene number for simulation
+<<<<<<< HEAD
     "end_with": 100,                                                              # Ending scene number for simulation
     "dataset_format": "coco",                                                   # Format of final generated dataset.json
     "box_url":"objects_usd/Plastic_Box/scene.usdc",
     "plate_url":"objects_usd/Nail_Box_1_Lid/scene.usdc",
     "add_box": "None"
+=======
+    "end_with": 5,                                                             # Ending scene number for simulation
+    "dataset_format": "coco",                                                   # Format of final generated dataset.json
+    "table_seen": False,                                                        # Control table visible
+    "box_url":"objects_usd/Plastic_Box/scene.usdc",
+    "plate_url":"objects_usd/Nail_Box_1_Lid/scene.usdc",
+    "add_box": "None"                                                          # "box" or "plate"
+>>>>>>> 1d7eaa7 (update)
 }
 
 def main():

@@ -122,7 +122,11 @@ def usd2ply(config):
         all_points = []
         labels = []
         for prim in stage.Traverse():
+<<<<<<< HEAD
             print(f"Prim path: {prim.GetPath()}, Type: {prim.GetTypeName()}")
+=======
+            # print(f"Prim path: {prim.GetPath()}, Type: {prim.GetTypeName()}")
+>>>>>>> 1d7eaa7 (update)
             if prim.IsA(UsdGeom.Mesh):
                 mesh = UsdGeom.Mesh(prim)
                 points = mesh.GetPointsAttr().Get()
