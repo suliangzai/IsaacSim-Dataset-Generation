@@ -246,7 +246,6 @@ def compute_support_matrix(points, labels, unique_labels,
     return support_matrix
 
 def compute_z_properties(points, labels, unique_labels):
-    """增强属性计算：增加平均高度"""
     properties = {}
     for label in unique_labels:
         obj_points = points[labels == label]
@@ -454,13 +453,13 @@ def generate_occlusion_cam(config):
                 support_matrix = compute_support_matrix(points, labels, unique_labels)
 
                 relation_matrix = combine_relations(support_matrix, occlusion_matrix)
-                print("support_matrix:")
-                print(support_matrix)
-                print("occlusion_matrix:")
-                print(occlusion_matrix)
-                print("final_matrix:")
-                print(relation_matrix)
-                print("1")
+                # print("support_matrix:")
+                # print(support_matrix)
+                # print("occlusion_matrix:")
+                # print(occlusion_matrix)
+                # print("final_matrix:")
+                # print(relation_matrix)
+                # print("1")
 
                 # 构建遮挡树
                 occlusion_tree = build_occlusion_tree(relation_matrix, unique_labels)

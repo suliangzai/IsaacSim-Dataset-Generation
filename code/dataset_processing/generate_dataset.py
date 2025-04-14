@@ -675,11 +675,10 @@ def visualize_reli_bboxes(annotation_file_path):
         image = cv2.resize(image, (width, int(image.shape[0] * width / image.shape[1])))
     
     combined_image = np.vstack((original_image, image))
-    output_image_path = os.path.join(os.path.dirname(annotation_file_path), 'output', os.path.basename(annotation_file_path).replace('.json', '.jpg'))
+    output_image_path = os.path.join(os.path.dirname(annotation_file_path), 'visualize', os.path.basename(annotation_file_path).replace('.json', '.jpg'))
     os.makedirs(os.path.dirname(output_image_path), exist_ok=True)
     cv2.imwrite(output_image_path, combined_image)
 
-    print(f"Visualization complete. Image saved at: {output_image_path}")
 
 # Save the updated dataset to a file
 def save_dataset(data, output_path):
@@ -701,6 +700,7 @@ def generate_dataset(config):
 
     generate_reli(config)
 
-    for i in range(config['start_from'], config['end_with']):
+    for i in tqdm(range(config['start_from'], config['end_with']), desc="Visualizing"):
         reli_path = str(OUTPUT_FOLDER / f'Annotations/{(config["num_frames"]*i):04d}.json')
         visualize_reli_bboxes(reli_path)
+    print(f"Reli dataset visualization complete.")

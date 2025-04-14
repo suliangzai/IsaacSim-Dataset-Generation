@@ -6,10 +6,10 @@ from code.simulation import data_collection
 from code.file_processing import convert_usd2ply
 from code.file_processing import file_validation
 from code.file_processing import move_invalid
-from code.data_analysis import occlusion_area_cam
-from code.simulation import generate_dataset
-from code.simulation import dataset_shuffle
-from code.simulation import split_dataset
+from code.relation_analysis import occlusion_area_cam
+from code.dataset_processing import generate_dataset
+from code.dataset_processing import dataset_shuffle
+from code.dataset_processing import split_dataset
 
 from path_config import DATA_FOLDER, CONFIG_FOLDER, CODE_FOLDER
 
@@ -61,7 +61,7 @@ config = {
     "dataset_format": "coco",                                                   # Format of final generated dataset.json
     "box_url":"objects_usd/Plastic_Box/scene.usdc",
     "plate_url":"objects_usd/Nail_Box_1_Lid/scene.usdc",
-    "add_box": "None"
+    "add_box": "None"                                                           # "box" or "plate"
 }
 
 def main():
