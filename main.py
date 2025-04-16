@@ -61,7 +61,9 @@ config = {
     "dataset_format": "coco",                                                   # Format of final generated dataset.json
     "box_url":"objects_usd/Plastic_Box/scene.usdc",
     "plate_url":"objects_usd/Nail_Box_1_Lid/scene.usdc",
-    "add_box": "None"                                                           # "box" or "plate"
+    "add_box": "None",                                                          # "box" or "plate"
+    "some_table_invisible": True,
+    "invisible_table_ratio": 0.5
 }
 
 def main():

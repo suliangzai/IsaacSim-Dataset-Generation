@@ -144,8 +144,10 @@ def data_collect(config, simulation_app):
                 table_pos = tuple(config.get("table_pos", (0,0,0)))
                 prim_path = omni.usd.get_stage_next_free_path(stage, f"/World/Table", False)
                 prim = stage.DefinePrim(prim_path, "Xform")
-                if config.get("table_seen") == True:
-                    UsdGeom.Imageable(prim).GetVisibilityAttr().Set("invisible")
+                if config.get("some_table_invisible") == True:
+                    invisible_table_ratio = config.get("invisible_table_ratio", 0.0)
+                    if random.random() < invisible_table_ratio:
+                        UsdGeom.Imageable(prim).GetVisibilityAttr().Set("invisible")
                 asset_path = table_url if (table_url.startswith("omniverse://") or table_url.startswith("/home")) else assets_root_path + table_url
                 prim.GetReferences().AddReference(asset_path)
                 object_based_sdg_utils.set_transform_attributes(prim, location=table_pos, scale=(1.5, 1.5, 1.5))
