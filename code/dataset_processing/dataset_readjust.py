@@ -60,7 +60,7 @@ def process_json_file(json_path, IMG_HEIGHT, IMG_WIDTH):
         if modified:
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
-        return
+        return modified
     
     id_map = {}
     new_id = 0
@@ -106,7 +106,7 @@ def readjust(config):
         json_path = os.path.join(annotations_dir, filename)
         modified = process_json_file(json_path, IMG_HEIGHT, IMG_WIDTH)
         if modified == True:
-            json_filename = os.path.basename(json_files)  
+            json_filename = os.path.basename(json_path)  
             readjust_file.append(json_filename)
     if readjust_file:
         print(f"Complete. Readjust file list{readjust_file}.")
