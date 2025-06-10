@@ -10,6 +10,7 @@ from code.relation_analysis import occlusion_area_cam
 from code.dataset_processing import generate_dataset
 from code.dataset_processing import dataset_shuffle
 from code.dataset_processing import split_dataset
+from code.dataset_processing import dataset_readjust
 
 from path_config import DATA_FOLDER, CONFIG_FOLDER, CODE_FOLDER
 
@@ -26,7 +27,7 @@ config = {
     "working_area_size": (0.7, 0.7, 1.5),               # Dimensions of the working area in meters (x, y, z)
     "generation_area_size": (0.3, 0.3, 0.5),            # Dimensions of the object generation area (x, y, z)
     "rt_subframes": 4,                                  # Number of subframes for Ray Tracing (affects motion blur quality)
-    "num_frames": 3,                                   # Total number of frames to capture
+    "num_frames": 1,                                    # Total number of frames to capture
     "num_cameras": 1,                                   # Number of cameras to create
     "camera_collider_radius": 0.5,                      # Radius for collision spheres around cameras
     "disable_render_products_between_captures": False,  # Disable render products except during captures
@@ -77,6 +78,7 @@ def main():
     move_invalid.remove(config)
     occlusion_area_cam.generate_occlusion_cam(config)
     generate_dataset.generate_dataset(config)
+    dataset_readjust.readjust(config)
 
     simulation_app.close()
     

@@ -603,8 +603,12 @@ def generate_reli(config):
 
 def visualize_reli_bboxes(annotation_file_path):
     # Load the annotation file
-    with open(annotation_file_path, 'r') as f:
-        annotation_data = json.load(f)
+    try:
+        with open(annotation_file_path, 'r') as f:
+            annotation_data = json.load(f)
+    except:
+        print(f"File {annotation_file_path} dose not exist.")
+        return
     
     # Load the image corresponding to the annotation
     image_path = annotation_data['imagePath']
