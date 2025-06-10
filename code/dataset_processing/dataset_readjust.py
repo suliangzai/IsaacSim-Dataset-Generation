@@ -113,4 +113,4 @@ def readjust(config):
     else:
         print("Complete. No file needs to be readjust.")
 
-    # TODO: Add point polygon readjust
+    # TODO: Add point polygon readjust, in some case there are more than one polygon.
